@@ -7,7 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ccb42d7-ab62-452d-8bc9-1e3b6d2bc46a" name="Changes" comment="" />
+    <list default="true" id="5ccb42d7-ab62-452d-8bc9-1e3b6d2bc46a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EQ_Zombies.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EQ_Zombies.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Zombie/BP_Zombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/BP_Zombie.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Zombie/DA_Zombie_Puppet.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/DA_Zombie_Puppet.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Zombie/Mesh-Skeleton/Mremireh_StaticMesh.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/Mesh-Skeleton/Mremireh_StaticMesh.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/HY/UC01DVDF1MJNUCX2TOYXOE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/HY/UC01DVDF1MJNUCX2TOYXOE.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MassZombies.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MassZombies.Build.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2U6uJuq4LQ7SxF1Bk44MHTA4ZKJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -31,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache&quot;,
-      &quot;C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache&quot;,
-      &quot;C:\\Users\\bechs\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\bechs\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MassZombies" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -124,10 +136,16 @@
       <workItem from="1692272829470" duration="1888000" />
       <workItem from="1692536109325" duration="4849000" />
       <workItem from="1692546378346" duration="12638000" />
+      <workItem from="1692625374120" duration="8111000" />
+      <workItem from="1692648796907" duration="1402000" />
     </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
