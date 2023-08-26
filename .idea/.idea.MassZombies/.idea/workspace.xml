@@ -8,20 +8,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ccb42d7-ab62-452d-8bc9-1e3b6d2bc46a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Player/DA_PlayerCar.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/7/0I/UYGHG9GOGCTXEJR73XO5W9.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/8/4I/8KBEAX3C1NEJB59IKSWO7E.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/B/AJ/TNXBJ4JYNTXAHN4AOGLXIN.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/YP/SDYTCCREFLR5B1I4FEZ32N.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalObjects__/VehicleTemplate/Maps/VehicleExampleMap/4/9Z/IBG9IPGT2N6QT7NXMHRH9J.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/KillZombiesInSphere/Processors/KillZombiesInBoxProcessor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/KillZombiesInSphere/Processors/KillZombiesInBoxProcessor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Fragments/ZombieKilledParams.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Observers/ZombieKilledObserver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Observers/ZombieKilledObserver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Tags/KilledTag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Tags/ZombieTag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EQ_Zombies.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EQ_Zombies.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/EnvironmentQueries/EQ_Zombies.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EnvironmentQueries/EQ_Zombies.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/VehicleTemplate/Blueprints/OffroadCar/OffroadCar_Pawn.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Zombie/Animations/Walking.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/Animations/Walking.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Zombie/BP_Zombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/BP_Zombie.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Zombie/Materials/emireh_body_material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/Materials/emireh_body_material.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Zombie/Materials/emireh_shoe_material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/Materials/emireh_shoe_material.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Zombie/Mesh-Skeleton/Mremireh_StaticMesh.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/Mesh-Skeleton/Mremireh_StaticMesh.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/0G/S09YAH4R8CMVDMZ7A20STZ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/0G/S09YAH4R8CMVDMZ7A20STZ.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/HY/UC01DVDF1MJNUCX2TOYXOE.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/1/HY/UC01DVDF1MJNUCX2TOYXOE.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MassZombies.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/MassZombies.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/3/LO/35SUB29C3KQDMIXSHRFU72.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/6/U5/8JZFKBCUEF0B387SN8YEIP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/6V/Y43952I6PADWYXPC2BKZKZ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/E/0F/98ISP8O7J3TB8XGN5PCRB0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSCollisionProcessors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSCollisionProcessors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSCollisionProcessors.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSCollisionProcessors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSMassPhysicsTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSMassPhysicsTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSPhysicsBody.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/Experimental/Physics/MSPhysicsBody.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/ProjectileSim/Processors/MSProjectileHitObservers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/MassCommunitySample/Source/MassCommunitySample/ProjectileSim/Processors/MSProjectileHitObservers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Tags/MoveToPlayerTag.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/MassZombies/MassZombies.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MassZombies.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +56,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -58,7 +80,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
@@ -150,6 +172,8 @@
       <workItem from="1692901008941" duration="500000" />
       <workItem from="1692901529275" duration="194000" />
       <workItem from="1692901752461" duration="2406000" />
+      <workItem from="1692962635408" duration="17102000" />
+      <workItem from="1693050405095" duration="6187000" />
     </task>
     <servers />
   </component>

@@ -21,7 +21,7 @@ void UMSPhysicsBody::BuildTemplate(FMassEntityTemplateBuildContext& BuildContext
 	if (bChaosToMass)
 	{
 		BuildContext.AddTag<FMSChaosToMassTag>();
-		if(bSimulatesPhysics)
+		if (bSimulatesPhysics)
 		{
 			BuildContext.AddTag<FMSSimulatesPhysicsTag>();
 		}
@@ -38,20 +38,19 @@ void UMSPhysicsBody::BuildTemplate(FMassEntityTemplateBuildContext& BuildContext
 	BuildContext.RequireFragment<FTransformFragment>();
 
 
-
 	if (bManualCollisionSettingsAndGeo)
 	{
 		FMassEntityManager& EntityManager = UE::Mass::Utils::GetEntityManagerChecked(World);
 
 		FSharedCollisionSettingsFragment CollisionSettingsFragment = CollisionSettings;
 
-		FKSphylElem Capsule = FKSphylElem(50.0f, 400.0f);
+		FKSphylElem Capsule = FKSphylElem(CollisionSettings.CapsuleRadius, CollisionSettings.CapsuleLength);
+		Capsule.Rotation = CollisionSettings.CapsuleRotation;
 		CollisionSettingsFragment.Geometry.SphylElems.Add(Capsule);
 
 		uint32 Hash = UE::StructUtils::GetStructCrc32(FConstStructView::Make(CollisionSettingsFragment));
 		BuildContext.AddSharedFragment(EntityManager.GetOrCreateSharedFragmentByHash<FSharedCollisionSettingsFragment>(
 			Hash, CollisionSettingsFragment));
-
 	}
 	else
 	{

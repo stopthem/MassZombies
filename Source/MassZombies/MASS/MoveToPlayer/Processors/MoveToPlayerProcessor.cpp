@@ -33,7 +33,7 @@ void UMoveToPlayerProcessor::Execute(FMassEntityManager& EntityManager, FMassExe
 {
 	FVector PlayerLocation = UGameplayStatics::GetPlayerPawn(Context.GetWorld(), 0)->GetActorLocation();
 
-	MassEntityQuery.ForEachEntityChunk(EntityManager, Context, [PlayerLocation](FMassExecutionContext& MassExecutionContext)
+	MassEntityQuery.ForEachEntityChunk(EntityManager, Context, [&,PlayerLocation](FMassExecutionContext& MassExecutionContext)
 	{
 		const TConstArrayView<FTransformFragment> TransformList = MassExecutionContext.GetFragmentView<FTransformFragment>();
 		const TArrayView<FMassMoveTargetFragment> MoveTargetList = MassExecutionContext.GetMutableFragmentView<FMassMoveTargetFragment>();

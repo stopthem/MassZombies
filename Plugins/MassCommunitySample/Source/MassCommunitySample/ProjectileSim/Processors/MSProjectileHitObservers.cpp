@@ -153,7 +153,7 @@ void UMSEntityWasHitSignalProcessor::ConfigureQueries()
 void UMSEntityWasHitSignalProcessor::Initialize(UObject& Owner)
 {
 	Super::Initialize(Owner);
-	UMassSignalSubsystem* SignalSubsystem = UWorld::GetSubsystem<UMassSignalSubsystem>(Owner.GetWorld());;
+	UMassSignalSubsystem* SignalSubsystem = UWorld::GetSubsystem<UMassSignalSubsystem>(Owner.GetWorld());
 
 	SubscribeToSignal(*SignalSubsystem, MassSample::Signals::OnGetHit);
 }
