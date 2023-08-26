@@ -22,9 +22,9 @@ Zombie Killing :
 Performance :
 - Fps is 25-30 in startup and goes up when killing zombies.
 - I have a good gaming pc(3060ti 5600x) so 30fps is not fantastic.
-- It could be way better probably. I will try to improve over time.
+- It could be way better probably. I will try to improve over time
 
-Youtube Showcase
+Showcase
 
-[![Showcase](https://github.com/stopthem/MassZombies/assets/68704994/e3d8ddd7-ee4a-4022-b0e7-793eac6c39cd)](https://www.youtube.com/watch?v=O0V02DX2SNE)
-
+Click image to go to youtube.
+[![Video](https://img.youtube.com/vi/O0V02DX2SNE/maxresdefault.jpg)](https://www.youtube.com/watch?v=O0V02DX2SNE)
