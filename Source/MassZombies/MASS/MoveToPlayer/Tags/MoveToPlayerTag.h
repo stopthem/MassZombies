@@ -6,7 +6,7 @@
 /*
  * FMoveToPlayerTag
  *
- * MoveToPlayerProcessor uses this tag to filter its entities.
+ * Tag that indicates a entity wants to move towards player.
  */
 USTRUCT()
 struct FMoveToPlayerTag : public FMassTag

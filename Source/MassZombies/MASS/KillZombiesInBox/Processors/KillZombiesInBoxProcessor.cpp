@@ -7,7 +7,6 @@
 #include "MassCommonTypes.h"
 #include "MassExecutionContext.h"
 #include "MassRepresentationTypes.h"
-#include "Components/BoxComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "MassZombies/MASS/Zombie/Killed/Tags/KilledTag.h"
@@ -34,7 +33,6 @@ void UKillZombiesInBoxProcessor::Execute(FMassEntityManager& EntityManager, FMas
 	const APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(Context.GetWorld(), 0);
 	FVector PlayerLocation = PlayerPawn->GetActorLocation() + PlayerPawn->GetActorForwardVector() * 100.0f;
 
-
 	MassEntityQuery.ForEachEntityChunk(EntityManager, Context, [PlayerLocation](const FMassExecutionContext& MassExecutionContext)
 	{
 		const TConstArrayView<FTransformFragment> TransformFragmentsList = MassExecutionContext.GetFragmentView<FTransformFragment>();
@@ -43,7 +41,6 @@ void UKillZombiesInBoxProcessor::Execute(FMassEntityManager& EntityManager, FMas
 		{
 			const FVector EntityLocation = TransformFragmentsList[EntityIndex].GetTransform().GetLocation();
 
-			// if (UKismetMathLibrary::Vector_Distance(EntityLocation, PlayerLocation) <= 300.0f)
 			if (UKismetMathLibrary::IsPointInBox(EntityLocation, PlayerLocation, FVector(200.0f, 200.0f, 100.0f)))
 			{
 				MassExecutionContext.Defer().AddTag<FKilledTag>(MassExecutionContext.GetEntity(EntityIndex));

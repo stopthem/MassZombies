@@ -30,8 +30,8 @@ void UZombieKilledObserver::ConfigureQueries()
 void UZombieKilledObserver::Execute(FMassEntityManager& EntityManager, FMassExecutionContext& Context)
 {
 	// std::atomic is thread-safe and this processor probably use multithreading.
-	std::atomic<int32> ToBeDestroyedEntities;
-	
+	std::atomic ShouldDestroyQueriedEntities(false);
+
 	MassEntityQuery.ForEachEntityChunk(EntityManager, Context, [&](FMassExecutionContext& MassExecutionContext)
 	{
 		const TConstArrayView<FTransformFragment> TransformsList = MassExecutionContext.GetFragmentView<FTransformFragment>();
@@ -44,11 +44,11 @@ void UZombieKilledObserver::Execute(FMassEntityManager& EntityManager, FMassExec
 
 			UGameplayStatics::SpawnEmitterAtLocation(MassExecutionContext.GetWorld(), ZombieKilledParams.ParticleToPlayWhenKilled, ParticlePlayLocation);
 
-			++ToBeDestroyedEntities;
+			ShouldDestroyQueriedEntities = true;
 		}
 	});
 
-	if (ToBeDestroyedEntities > 0)
+	if (ShouldDestroyQueriedEntities)
 	{
 		Context.Defer().DestroyEntities(Context.GetEntities());
 	}

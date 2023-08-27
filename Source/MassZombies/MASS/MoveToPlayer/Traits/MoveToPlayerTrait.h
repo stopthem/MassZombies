@@ -10,8 +10,7 @@
 /**
  * UMoveToPlayerTrait
  *
- * Every entity that has to look and move towards player must have this trait.
- * Also handles necessary tag and fragments.
+ * Every entity that wants to move towards player must have this trait.
  */
 UCLASS()
 class MASSZOMBIES_API UMoveToPlayerTrait : public UMassEntityTraitBase
