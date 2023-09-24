@@ -11,6 +11,6 @@ void UMoveToPlayerTrait::BuildTemplate(FMassEntityTemplateBuildContext& BuildCon
 {
 	BuildContext.RequireFragment<FTransformFragment>();
 	BuildContext.RequireFragment<FMassMoveTargetFragment>();
-
+	
 	BuildContext.AddTag<FMoveToPlayerTag>();
 }

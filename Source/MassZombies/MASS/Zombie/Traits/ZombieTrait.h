@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "MassEntityTraitBase.h"
-#include "MassZombies/MASS/Zombie/Killed/Fragments/ZombieKilledParams.h"
+#include "MassZombies/MASS/Zombie/Killed/Fragments/ZombieKilledParamsFragment.h"
 
 #include "ZombieTrait.generated.h"
 
@@ -22,5 +22,5 @@ protected:
 	virtual void BuildTemplate(FMassEntityTemplateBuildContext& BuildContext, const UWorld& World) const override;
 
 	UPROPERTY(Category="Killed", EditAnywhere)
-	FZombieKilledParams ZombieKilledParams;
+	FZombieKilledParamsFragment ZombieKilledParams;
 };

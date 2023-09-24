@@ -9,8 +9,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5ccb42d7-ab62-452d-8bc9-1e3b6d2bc46a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassZombies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Zombie/DA_Zombie.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Processors/MoveToPlayerProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Traits/MoveToPlayerTrait.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/MoveToPlayer/Traits/MoveToPlayerTrait.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/KillZombiesInBox/Processors/KillZombiesInBoxProcessor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Fragments/ZombieKilledParams.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Fragments/ZombieKilledParamsFragment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Observers/ZombieKilledObserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Killed/Observers/ZombieKilledObserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/MassZombies/MASS/Zombie/Traits/ZombieTrait.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache&quot;,
-      &quot;C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache&quot;,
-      &quot;C:\\Users\\bechs\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\bechs\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\bechs\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MassZombies" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -146,6 +152,11 @@
       <workItem from="1693122387109" duration="223000" />
       <workItem from="1693128813510" duration="1298000" />
       <workItem from="1693493039580" duration="172000" />
+      <workItem from="1694523621472" duration="1555000" />
+      <workItem from="1695574604817" duration="2250000" />
+      <workItem from="1695577243830" duration="1142000" />
+      <workItem from="1695578416460" duration="309000" />
+      <workItem from="1695579937482" duration="276000" />
     </task>
     <servers />
   </component>
